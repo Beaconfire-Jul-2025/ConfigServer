@@ -1,10 +1,10 @@
-package com.beaconfire.SCRUM_71_config_server;
+package com.beaconfire.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Scrum71ConfigServerApplicationTests {
+class ConfigServerApplicationTests {
 
 	@Test
 	void contextLoads() {

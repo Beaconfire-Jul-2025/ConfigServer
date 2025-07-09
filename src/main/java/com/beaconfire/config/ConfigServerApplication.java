@@ -1,4 +1,4 @@
-package com.beaconfire.SCRUM_71_config_server;
+package com.beaconfire.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,11 +6,11 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class Scrum71ConfigServerApplication {
+public class ConfigServerApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(Scrum71ConfigServerApplication.class, args);
+		SpringApplication.run(ConfigServerApplication.class, args);
 	}
 
 }
