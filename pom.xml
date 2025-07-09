@@ -13,6 +13,14 @@
 	<version>0.0.1</version>
 	<name>Config Server</name>
 	<description>Spring Cloud Config Server for HR Onboarding Project</description>
+	<profiles>
+        <profile>
+            <id>dockerfile</id>
+            <build>
+                <finalName>application</finalName>
+            </build>
+        </profile>
+    </profiles>
 	<licenses>
 		<license/>
 	</licenses>
