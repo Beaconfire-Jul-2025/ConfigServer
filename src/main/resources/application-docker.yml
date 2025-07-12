@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Beaconfire-Jul-2025/Config.git
+          uri: ${SPRING_CLOUD_CONFIG_SERVER_GIT_URI:https://github.com/Beaconfire-Jul-2025/Config.git}
           default-label: main
           search-paths: /
           clone-on-start: true

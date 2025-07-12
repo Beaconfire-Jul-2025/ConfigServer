@@ -7,8 +7,6 @@ spring:
       server:
         git:
           uri: https://github.com/Beaconfire-Jul-2025/Config.git
-          default-label: main
-          search-paths: /
           clone-on-start: true
 
 eureka:
